@@ -28,7 +28,7 @@ public class MainActivity extends FragmentActivity {
             }
         });
         Button button2 = (Button) findViewById(R.id.btn_show_fragment2);
-        button1.setOnClickListener(new View.OnClickListener() {
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 FragmentManager manager = getSupportFragmentManager();
