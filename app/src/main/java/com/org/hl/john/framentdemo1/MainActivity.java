@@ -20,6 +20,7 @@ public class MainActivity extends FragmentActivity {
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                //动态添加Fragment
                 FragmentManager manager = getSupportFragmentManager();
                 FragmentTransaction ft = manager.beginTransaction();
                 Fragmet1 fragmet1 = new Fragmet1();
