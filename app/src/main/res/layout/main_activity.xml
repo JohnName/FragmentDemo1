@@ -2,20 +2,24 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     android:baselineAligned="false" >
 
-    <fragment
-        android:id="@+id/fragment1"
-        android:name="com.org.hl.john.framentdemo1.Fragmet1"
-        android:layout_width="0dip"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+    <Button
+        android:id="@+id/btn_show_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示Fragment1"/>
 
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="com.org.hl.john.framentdemo1.Fragmet2"
-        android:layout_width="0dip"
-        android:layout_height="match_parent"
-        android:layout_weight="1" />
+    <Button
+        android:id="@+id/btn_show_fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="显示Fragment2"/>
+
+    <FrameLayout
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>
