@@ -16,7 +16,31 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="显示Fragment2"/>
-
+    <Button
+        android:id="@+id/btn_remove_fragment2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="移除Fragment2"/>
+    <Button
+        android:id="@+id/btn_replace_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="替换Fragment1"/>
+    <Button
+        android:id="@+id/btn_backsigle_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="单层回退"/>
+    <Button
+        android:id="@+id/btn_back_fragment1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过popBackStack(fragment1,0)回退到Fragment1"/>
+    <Button
+        android:id="@+id/btn_back_fragment1_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="通过popBackStack(fragment1,FragmentManager.POP_BACK_STACK_INCLUSIVE)回退到Fragment1"/>
     <FrameLayout
         android:id="@+id/fragment_container"
         android:layout_width="match_parent"
